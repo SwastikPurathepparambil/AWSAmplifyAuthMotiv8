@@ -1,0 +1,221 @@
+PODS:
+  - Amplify (1.23.0):
+    - Amplify/Default (= 1.23.0)
+  - Amplify/Default (1.23.0)
+  - amplify_analytics_pinpoint_ios (0.0.1):
+    - Amplify (= 1.23.0)
+    - amplify_core
+    - AmplifyPlugins/AWSPinpointAnalyticsPlugin (= 1.23.0)
+    - Flutter
+  - amplify_auth_cognito_ios (0.0.1):
+    - Amplify (= 1.23.0)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (= 1.23.0)
+    - Flutter
+    - ObjectMapper
+  - amplify_core (0.0.1):
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint
+  - amplify_flutter_ios (0.0.1):
+    - Amplify (= 1.23.0)
+    - amplify_core
+    - AmplifyPlugins/AWSCognitoAuthPlugin (= 1.23.0)
+    - AWSPluginsCore (= 1.23.0)
+    - Flutter
+    - SwiftFormat/CLI
+    - SwiftLint
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.23.0):
+    - AWSAuthCore (~> 2.27.0)
+    - AWSCognitoIdentityProvider (~> 2.27.0)
+    - AWSCognitoIdentityProviderASF (~> 2.27.0)
+    - AWSCore (~> 2.27.0)
+    - AWSMobileClient (~> 2.27.0)
+    - AWSPluginsCore (= 1.23.0)
+  - AmplifyPlugins/AWSPinpointAnalyticsPlugin (1.23.0):
+    - AWSCore (~> 2.27.0)
+    - AWSPinpoint (~> 2.27.0)
+    - AWSPluginsCore (= 1.23.0)
+  - AppAuth (1.5.0):
+    - AppAuth/Core (= 1.5.0)
+    - AppAuth/ExternalUserAgent (= 1.5.0)
+  - AppAuth/Core (1.5.0)
+  - AppAuth/ExternalUserAgent (1.5.0):
+    - AppAuth/Core
+  - AWSAuthCore (2.27.10):
+    - AWSCore (= 2.27.10)
+  - AWSCognitoIdentityProvider (2.27.10):
+    - AWSCognitoIdentityProviderASF (= 2.27.10)
+    - AWSCore (= 2.27.10)
+  - AWSCognitoIdentityProviderASF (2.27.10):
+    - AWSCore (= 2.27.10)
+  - AWSCore (2.27.10)
+  - AWSMobileClient (2.27.10):
+    - AWSAuthCore (= 2.27.10)
+    - AWSCognitoIdentityProvider (= 2.27.10)
+    - AWSCognitoIdentityProviderASF (= 2.27.10)
+    - AWSCore (= 2.27.10)
+  - AWSPinpoint (2.27.10):
+    - AWSCore (= 2.27.10)
+  - AWSPluginsCore (1.23.0):
+    - Amplify (= 1.23.0)
+    - AWSCore (~> 2.27.0)
+  - Firebase/Auth (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseAuth (~> 8.15.0)
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - firebase_auth (3.3.20):
+    - Firebase/Auth (= 8.15.0)
+    - firebase_core
+    - Flutter
+  - firebase_core (1.18.0):
+    - Firebase/CoreOnly (= 8.15.0)
+    - Flutter
+  - FirebaseAuth (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - Flutter (1.0.0)
+  - google_sign_in_ios (0.0.1):
+    - Flutter
+    - GoogleSignIn (~> 6.2)
+  - GoogleDataTransport (9.1.4):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleSignIn (6.2.2):
+    - AppAuth (~> 1.5)
+    - GTMAppAuth (~> 1.3)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GTMAppAuth (1.3.0):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.2)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - ObjectMapper (4.2.0)
+  - PromisesObjC (2.1.0)
+  - SwiftFormat/CLI (0.49.9)
+  - SwiftLint (0.47.1)
+
+DEPENDENCIES:
+  - amplify_analytics_pinpoint_ios (from `.symlinks/plugins/amplify_analytics_pinpoint_ios/ios`)
+  - amplify_auth_cognito_ios (from `.symlinks/plugins/amplify_auth_cognito_ios/ios`)
+  - amplify_core (from `.symlinks/plugins/amplify_core/ios`)
+  - amplify_flutter_ios (from `.symlinks/plugins/amplify_flutter_ios/ios`)
+  - firebase_auth (from `.symlinks/plugins/firebase_auth/ios`)
+  - firebase_core (from `.symlinks/plugins/firebase_core/ios`)
+  - Flutter (from `Flutter`)
+  - google_sign_in_ios (from `.symlinks/plugins/google_sign_in_ios/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AppAuth
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPinpoint
+    - AWSPluginsCore
+    - Firebase
+    - FirebaseAuth
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - GoogleDataTransport
+    - GoogleSignIn
+    - GoogleUtilities
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - nanopb
+    - ObjectMapper
+    - PromisesObjC
+    - SwiftFormat
+    - SwiftLint
+
+EXTERNAL SOURCES:
+  amplify_analytics_pinpoint_ios:
+    :path: ".symlinks/plugins/amplify_analytics_pinpoint_ios/ios"
+  amplify_auth_cognito_ios:
+    :path: ".symlinks/plugins/amplify_auth_cognito_ios/ios"
+  amplify_core:
+    :path: ".symlinks/plugins/amplify_core/ios"
+  amplify_flutter_ios:
+    :path: ".symlinks/plugins/amplify_flutter_ios/ios"
+  firebase_auth:
+    :path: ".symlinks/plugins/firebase_auth/ios"
+  firebase_core:
+    :path: ".symlinks/plugins/firebase_core/ios"
+  Flutter:
+    :path: Flutter
+  google_sign_in_ios:
+    :path: ".symlinks/plugins/google_sign_in_ios/ios"
+
+SPEC CHECKSUMS:
+  Amplify: 010d6a71db20812d9e3062db1fe827393d01e584
+  amplify_analytics_pinpoint_ios: 6353367c6b59d271fbea2715c5e257e5a84a89e4
+  amplify_auth_cognito_ios: c67d4bf0901717cb193f16ed24c389be7f4d7daf
+  amplify_core: e67fe0c53845db08aced670bfc7370b1329d2798
+  amplify_flutter_ios: a2cf41c13161ffefedab76055a29b2d4e78c91e8
+  AmplifyPlugins: d939707cf36dfcd53c5fd6533e842e323a2287ab
+  AppAuth: 80317d99ac7ff2801a2f18ff86b48cd315ed465d
+  AWSAuthCore: ea9baff143a5ff4a98cea3954b006cedc96cd47e
+  AWSCognitoIdentityProvider: 7ef13d7a86298db707165208f01b92997cc3b5af
+  AWSCognitoIdentityProviderASF: d745c40a37815ef1c547f9677145d4e522f582f3
+  AWSCore: dbad318b7ff0fd86fb8387d3ad1f30049c05bc58
+  AWSMobileClient: 523cdb04d21cfd7523eb8db77b2fa2a00b6a95b4
+  AWSPinpoint: 27927339d4bb43bd46c15c3baaff1220041c668b
+  AWSPluginsCore: 120cfa265293694921b6595fe00d1cb5ab558847
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  firebase_auth: 0c31e02a522f6ece632f9f6d623441898c4dd679
+  firebase_core: b14c1cfa29b9eb316345f74d1489328283825d6d
+  FirebaseAuth: 3e73bf8abf4fbb40f8b421f361f4cc48ee57388c
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  google_sign_in_ios: 90eec6616c4c2105b9f9fe5c774773d13565b504
+  GoogleDataTransport: 5fffe35792f8b96ec8d6775f5eccd83c998d5a3b
+  GoogleSignIn: 3c68388ac221f379676e8f1cb115df3aaf73b93f
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  GTMAppAuth: 4d8f864896f3646f0c33baf38a28362f4c601e15
+  GTMSessionFetcher: 5595ec75acf5be50814f81e9189490412bad82ba
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  SwiftFormat: 016c15401d06959ef9f81d7956462e91f55b8ac5
+  SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
+
+PODFILE CHECKSUM: 7368163408c647b7eb699d0d788ba6718e18fb8d
+
+COCOAPODS: 1.11.3
